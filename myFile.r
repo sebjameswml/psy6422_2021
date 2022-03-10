@@ -6,8 +6,8 @@
 a<-runif(n=300, min=0, max=1)
 # A sequence of numbers for the x axis
 b<-seq(1, 10, length=300)
-# Multiply a and b to get c
-c<-a*b
+# ADD a and b to get c
+c<-a+b
 # Plot c
 plot (b, c)
 # Find the linear model for c predicted by b
